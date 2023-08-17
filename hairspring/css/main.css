@@ -1093,6 +1093,15 @@ p {
 .newsletter-form button[type="submit"]:hover {
   background-color: #ffbf4d;
 }
+.news{
+  padding: 30px;
+  margin: 30px;
+}
+@media only screen and (max-width:768px){
+  .news{
+    padding: 0;
+  }
+}
 @media (min-width: 992px) {
   .padding-top {
     padding-top: 120px;
